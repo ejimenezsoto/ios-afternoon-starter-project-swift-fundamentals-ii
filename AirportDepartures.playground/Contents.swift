@@ -59,7 +59,6 @@ class DepartureBoard {
         self.departureFlights = departureFlights
         self.currentAirport = currentAirport
     }
-}
 //: ## 2. Create 3 flights and add them to a departure board
 //: a. For the departure time, use `Date()` for the current time
 //:
@@ -86,8 +85,13 @@ class DepartureBoard {
     var departureFlights: [Flights] = []
     var currentAirport: Airport
     
-    init(departureFlights: [)
+    
+    init(departureFlights: [Flights], currentAirport: Airport) {
+        self.departureFlights = departureFlights
+        self.currentAirport = currentAirport
+    }
 }
+
 
 
 
